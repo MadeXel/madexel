@@ -1,0 +1,12 @@
+syntax = "proto3";
+package madexel.madexel.madexel;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/MadeXeL/madexel/x/madexel/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
